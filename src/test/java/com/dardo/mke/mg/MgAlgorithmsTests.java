@@ -1,6 +1,5 @@
-package com.dardo.mke.alg.mg;
+package com.dardo.mke.mg;
 
-import com.dardo.mke.mg.MgAlgorithms;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
