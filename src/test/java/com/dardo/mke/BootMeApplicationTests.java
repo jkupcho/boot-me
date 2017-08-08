@@ -10,7 +10,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class BootMeApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	public void contextLoads() {}
+
+	@Test
+	public void mainRuns() {
+		BootMeApplication.main(new String[]{});
 	}
 
 }
