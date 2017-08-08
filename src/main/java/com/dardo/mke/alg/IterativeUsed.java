@@ -10,6 +10,9 @@ public class IterativeUsed extends AbstractUsed {
     public IterativeUsed() { super(); }
     public IterativeUsed(boolean caseSensitive) { super(caseSensitive); }
 
+    /**
+     * Attempt at an O(n) implementation.
+     */
     @Override
     protected String doFindMostUsed(String[] words) {
         Map<String, Integer> countMap = new HashMap<>();

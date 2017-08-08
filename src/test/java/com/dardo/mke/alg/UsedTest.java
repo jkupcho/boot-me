@@ -1,9 +1,6 @@
 package com.dardo.mke.alg;
 
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
-import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
@@ -17,9 +14,6 @@ public class UsedTest {
     private static final String[] TIE_SENSITIVE = new String[] { "cycle", "CYCLE", "APPLE", "Apple" };
 
     private Used used;
-
-    @Rule
-    public ExpectedException expectedException = ExpectedException.none();
 
     @Test(expected = IllegalArgumentException.class)
     public void IterativeCaseSensitive_NoArgs_ShouldThrowException() throws Exception {
