@@ -1,4 +1,4 @@
-## Boot-Me
+## Boot-Me [![Build Status](https://travis-ci.org/jkupcho/boot-me.svg?branch=master)](https://travis-ci.org/jkupcho/boot-me) [![Coverage Status](https://coveralls.io/repos/github/jkupcho/boot-me/badge.svg?branch=master)](https://coveralls.io/github/jkupcho/boot-me)
 
 ### Interface and Implementation
 * Located in package ```com.dardo.mke.mg```
