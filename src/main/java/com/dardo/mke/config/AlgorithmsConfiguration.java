@@ -18,7 +18,7 @@ public class AlgorithmsConfiguration {
 
     @Bean
     public Completion completion() {
-        return new RecursiveCompletion();
+        return new DoorCompletion();
     }
 
     @Bean

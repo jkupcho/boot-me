@@ -17,7 +17,7 @@ public class CompletionTest {
     // 25 + 25 + 25 + 5 + 1 + 1 + 1
     private static final int RANDOM_CASE = 83;
 
-    private Completion completion = new RecursiveCompletion();
+    private Completion completion = new DoorCompletion();
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
@@ -40,6 +40,11 @@ public class CompletionTest {
     @Test
     public void minimumNumber_WorstCase() {
         assertEquals(4, completion.minimumNumber(WORST_CASE));
+    }
+
+    @Test
+    public void minimumNumber_26() {
+        assertEquals(2, completion.minimumNumber(26));
     }
 
     @Test
