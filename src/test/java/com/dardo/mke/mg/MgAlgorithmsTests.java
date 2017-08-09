@@ -25,7 +25,7 @@ public class MgAlgorithmsTests {
 
     @Test
     public void basicTests() {
-        assertEquals(10, mgAlgorithms.getCombinationsToScorePoints(9));
+        assertEquals(12, mgAlgorithms.getCombinationsToScorePoints(9));
         assertEquals(2, mgAlgorithms.getMinimumNumberOfCompletions(30));
         assertEquals("APPLE", mgAlgorithms.getHighestWordCount(Arrays.asList("cycle", "CYCLE", "APPLE", "Apple")));
 
